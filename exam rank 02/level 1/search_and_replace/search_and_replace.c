@@ -14,7 +14,7 @@ int main(int argc, char **argv)
   int i;
 
   i = 0;
-  //si el número d'arguments és 4 i si me donen mes d'una lletra en el segon i tercer argument)
+  //si el número d'arguments és 4 i si me donen mes d'una lletra en el segon i tercer argument
   if (argc == 4 && !argv[2][1] && !argv[3][1])
   {
     while (argv[1][i])
